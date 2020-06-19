@@ -143,6 +143,7 @@ html{
   width: auto;
   padding: 2rem 0rem;
   margin: 0px 20px;
+  object-fit: contain;
 
 }
 
@@ -188,7 +189,6 @@ html{
 
 }
 
-
 @media screen and (max-width: 1024px){
   .fs-option{
     display: none;
@@ -200,5 +200,79 @@ html{
 
   }
 
+  .img-glasses{
+    display: none;
 
+  }
+  .img-container{
+    width: 47%;
+
+  }
+
+  .location, .time{
+    width: 35%;
+
+  }
+}
+
+@media screen and (max-width: 470px){
+
+
+  .banner{
+    height: 15rem;
+    width: auto;
+
+  }
+
+  .banner-title{
+    margin-top: 10rem;
+    left: 0px;
+    width: 100%;
+
+  }
+
+  .banner-title h3{
+    font-size: 0.77rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+  }
+
+  .banner-title p{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+  }
+
+  .img-watch{
+    display: none;
+
+  }
+
+  .img-container{
+    width: 90%;
+
+  }
+
+  .location{
+    margin-bottom: 0.5rem;
+
+  }
+
+  .location, .time{
+    width: 90%;
+
+  }
+
+  .footer p{
+    text-align: center;
+
+  }
+
+  .lower-content{
+    flex-flow: column nowrap;
+    align-items: center;
+
+  }
 }
